@@ -54,3 +54,29 @@ position: absolute;
 .about{
     text-align: center;
 }
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+.section-description{
+    size: 5px;
+}
+.img-ok{
+    width: 250px;
+    height: 300px;
+}
+.text{
+    float: left;
+}
