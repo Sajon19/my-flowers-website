@@ -15,29 +15,26 @@ body {
     padding: 10px 25px;
 }
 
+.header{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+}
+.banner{
+    
+    display: flex;
+    align-items: center;
+
+}
+.first-pic{
+    justify-content: space-around;
+    width: 535px;
+height: 700px;
+}
+
 .first-dec{
+    flex-direction: column;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-  
-display: flex;
-width: 634px;
-flex-direction: column;
-flex-shrink: 0;
-   
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
-
-.first-content {
-
-    background-color: rgba(229, 84, 115, 0.10);;
-    /* background-repeat: no-repeat; */
-    /* background-position: bottom right, top left; */
-    width:1920px;
-height: 850px;
-flex-shrink: 0;
-
-    flex-shrink: 0;
-
-}
-
