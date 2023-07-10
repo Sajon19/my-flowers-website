@@ -38,3 +38,19 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 }
+
+.box {
+   display: flex;
+   
+    padding: 110px 78px 0px 76px;
+    border-radius: 250px 250px 0px 0px;
+    width: 310px;
+height: 428px;
+position: absolute;
+   
+   
+   
+}
+.about{
+    text-align: center;
+}
