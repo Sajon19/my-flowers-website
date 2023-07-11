@@ -21,10 +21,13 @@ body {
     display: flex;
     align-items: center;
   }
+  .banner{
+    padding:0px 30px 0px 70px;
+  }
   .first-pic {
-    justify-content: space-around;
-    width: 535px;
-    height: 700px;
+    width: 270px;
+    height: 295px;
+    margin: 65px 0 0 80px;
   }
   
   .first-dec {
@@ -35,7 +38,8 @@ body {
     line-height: 30px;
   }
 
-  /* FRIST SECTION START */
+  /* Header SECTION end*/
+  /*FIRST SECTION START */
 .frist_section {
   width: 100%;
   height: 400px;
@@ -77,4 +81,47 @@ span {
   height: 283px;
   margin: 65px 0 0 80px;
 }
-/* FRIST SECTION END */
+/* FIRST SECTION END */
+
+
+/* SECOND SECTION START */
+
+.second_section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.second_section_text {
+  text-align: center;
+  padding-left: 330px;
+}
+.second_section_text h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.second_section_text p {
+  font-size: 14px;
+  color: grey;
+  padding-bottom: 24px;
+}
+.second_section_images {
+  margin: 161px 0 0 -734px;
+}
+
+.second_section_images .img1,
+.img2,
+.img3,
+.img4 {
+  float: left;
+  padding-right: 20px;
+}
+.second_section_images .img1,
+.img2,
+.img3,
+.img4,
+img {
+  width: 250px;
+  height: 300px;
+}
+/* SECOND SECTION END */
