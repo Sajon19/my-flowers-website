@@ -1,82 +1,80 @@
 body {
-    font-family: 'lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-}
-
-    
-.btn-primary {
-    
+    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .btn-primary {
     border-radius: 8px;
-    background: #E55473;
+    background: #e55473;
     border: 0px;
     color: white;
     font-size: 15px;
     font-weight: 700;
     padding: 10px 25px;
-}
+  }
 
-.header{
-    background: rgba(229, 84, 115, 0.10);
+  .header {
+    background: rgba(229, 84, 115, 0.1);
     display: flex;
-}
-.banner{
-    
+  }
+  .banner {
     display: flex;
     align-items: center;
-
-}
-.first-pic{
+  }
+  .first-pic {
     justify-content: space-around;
     width: 535px;
-height: 700px;
-}
-
-.first-dec{
+    height: 700px;
+  }
+  
+  .first-dec {
     flex-direction: column;
-    color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-}
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
 
-.box {
-   display: flex;
-   
-    padding: 110px 78px 0px 76px;
-    border-radius: 250px 250px 0px 0px;
-    width: 310px;
-height: 428px;
-position: absolute;
-   
-   
-   
+  /* FRIST SECTION START */
+.frist_section {
+  width: 100%;
+  height: 400px;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
 }
-.about{
-    text-align: center;
+.frist_section_text {
+  float: left;
+  text-align: center;
+  margin: 100px 0 0 0;
 }
-
-.about {
-    padding: 130px;
-    border-radius: 10px;
-    background: #FFF8F3;
-    margin: 130px 0px;
+.frist_section_text h2 {
+  font-size: 32px;
+  font-weight: bold;
 }
-
-.about-info-container {
-    display: flex;
-    justify-content: space-around;
+span {
+  color: crimson;
 }
-
-.about-info {
-    text-align: center;
+.frist_section_text p {
+  font-size: 14px;
+  color: grey;
+  padding-bottom: 24px;
 }
-.section-description{
-    size: 5px;
+.frist_section_text a {
+  padding: 12px 22px;
+  background-color: crimson;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 11px;
 }
-.img-ok{
-    width: 250px;
-    height: 300px;
+.frist_section_img {
+  float: left;
 }
-.text{
-    float: left;
+.frist_section_img img {
+  width: 220px;
+  height: 283px;
+  margin: 65px 0 0 80px;
 }
+/* FRIST SECTION END */
